@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input:focus-visible{
+    outline: none;
+}
+.main-frame{
+    display: grid;
+    place-content: center;
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+.main-frame .inp {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-frame .inp input[type="text"]{
+    width: 350px;
+    height: 50px;
+    padding: 0 20px;
+    text-align: right;
+    font-size: 22px;
+    margin-bottom: 20px;
+    border: 5px solid silver;
+}
+.main-frame .inp input[type="button"]{
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background-color: #838383;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.main-frame .inp input[type="button"]:hover{
+    border: 1px solid #838383;
+    background-color: #fff;
+    color: #000;
+}
